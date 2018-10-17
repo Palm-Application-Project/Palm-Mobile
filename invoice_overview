@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice page 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Yanone+Kaffeesatz" rel="stylesheet">
+
+  </head>
+  <body>
+<header>
+  <div class="menu">
+
+  </div>
+  <!-- this is just a placeholder logo for the svg -->
+  <id class="logo">
+    <img src="https://i.imgur.com/zf1jYUY.png" alt="logo">
+  </id>
+  <div class="client_name">Name
+</div>
+
+</header>
+
+
+<main>
+  <id class="title">PROJECT 1 INVOICE <p class="subtitle">client_name</p></id>
+
+  <div class="overview">
+    <h1>OVERVIEW</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>VIEW PROJECT</h2>
+    </div>
+
+    <div class="breakdown">
+      <h1>HOUR BREAKDOWN</h1>
+      <ul>
+        <li>ASSETS <id=assetHours>00:00</id></li>
+        <li>PITCH DECK <id=pitchDeckHours>00:00</id></li>
+        <li>REVISONS <id=revisionHours>00:00</id></li>
+      </ul>
+    </div>
+
+    <button type="button" name="CREATE INVOICE" class="create_invoice_button"></button>
+
+  </div>
+</main>
+<footer>
+
+</footer>
+  </body>
+</html>
